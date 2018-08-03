@@ -1,0 +1,51 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src/js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp dev",
+    "dev": "gulp dev",
+    "clean": "rimraf dist",
+    "build": "rimraf dist && gulp build"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "~1.15.0",
+    "crossroads": "^0.12.2",
+    "eslint": "^5.2.0",
+    "eslint-loader": "^2.1.0",
+    "express": "~4.13.4",
+    "hasher": "~1.2.0",
+    "jquery": "^2.2.4",
+    "knockout": "^3.4.0",
+    "serve-static": "~1.10.2",
+    "stringify": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.8.8",
+    "gulp-browserify": "^0.5.0",
+    "gulp-minify-html": "^0.1.5",
+    "gulp-open": "^0.2.8",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-serve": "^0.2.0",
+    "gulp-uglify": "^1.0.1",
+    "gulp-watch": "^1.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
